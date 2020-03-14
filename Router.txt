@@ -1,0 +1,21 @@
+Hostname 
+
+Banner 
+
+Usuário 
+
+Senha Enable 
+
+Senha Console 
+
+Domínio
+
+Chave de SSH 
+
+Senha VTY 
+
+Login local na Console e VTY 
+
+Encriptar as senhas 
+
+Colocar Ip e Máscara (192.168.0.1 / 255.255.255.0) (172.16.0.1 / 255.255.0.0)

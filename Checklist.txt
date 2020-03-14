@@ -1,0 +1,35 @@
+>enable 
+
+#conf t 
+
+(config) #hostname [HOSTNAME ESCOLHIDO] 
+
+(config) #banner motd ["BANNER ENTRE ASPAS"] 
+
+(config) #username [USUÁRIO] privilege 15 secret [SENHA]
+
+(config) #enable password [SENHA ESCOLHIDA] 
+
+(config) #ip domain-name [NOME_DO_DOMÍNIO]
+
+(config) #line vty 0 15 
+
+(config-line) #password [SENHA] 
+
+(config) #line console 0 
+
+(config-line) #password [SENHA] 
+
+(config-line) #login 
+
+(config) #ip domain-name [NOME_DO_DOMÍNIO] 
+
+(config) #crypto key generate rsa general-key modulus 1024 
+
+(config) #line vty 0 15 
+
+(config-line) #transport input ssh 
+
+(config-line) #password [SENHA] 
+
+(config-line) #login
